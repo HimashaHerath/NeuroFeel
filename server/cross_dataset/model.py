@@ -9,11 +9,14 @@ from pydantic import BaseModel, Field
 from fastapi import FastAPI, HTTPException, Query, Path
 from fastapi.middleware.cors import CORSMiddleware
 
-# Update these paths to point to your saved demo files
-DEMO_DIR = "D:\\NeuroFeel\\results\\ensemble_run_20250329_052303\\demo"
-DEMO_MODELS_PATH = os.path.join(DEMO_DIR, "demo_models.pkl")
-WESAD_SAMPLES_PATH = os.path.join(DEMO_DIR, "wesad_demo_samples.pkl")
-KEMOCON_SAMPLES_PATH = os.path.join(DEMO_DIR, "kemocon_demo_samples.pkl")
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+DATA_DIR = os.path.join(BASE_DIR, "cross_dataset_api_data", "demo")
+
+DEMO_MODELS_PATH = os.path.join(DATA_DIR, "demo_models.pkl")
+WESAD_SAMPLES_PATH = os.path.join(DATA_DIR, "wesad_demo_samples.pkl")
+KEMOCON_SAMPLES_PATH = os.path.join(DATA_DIR, "kemocon_demo_samples.pkl")
 
 # Define valid subjects/participants (keep these for validation)
 VALID_WESAD_SUBJECTS = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17]
