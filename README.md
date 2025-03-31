@@ -28,7 +28,7 @@ NeuroFeel/
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/your-username/NeuroFeel.git
+git clone https://github.com/HimashaHerath/NeuroFeel
 cd NeuroFeel
 ```
 
