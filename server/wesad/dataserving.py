@@ -91,9 +91,8 @@ app = FastAPI(
 origins = [
     "https://neurofeel.vercel.app",  # Vercel frontend
     "http://localhost:3000",         # Local dev
-    "https://neurofeel-api-7e3f5723d59c.herokuapp.com"  # Heroku backend,
-    "www.neurofeel.space",  # Neurofeel space
-    "https://neurofeel.space/"
+    "https://neurofeel.space",       # Neurofeel space
+    "https://www.neurofeel.space"    
 ]
 # Add CORS middleware to allow requests from your Next.js frontend
 app.add_middleware(
