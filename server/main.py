@@ -28,7 +28,8 @@ app = FastAPI(
 origins = [
     "https://neurofeel.vercel.app",  # Vercel frontend
     "http://localhost:3000",         # Local dev
-    "https://neurofeel-api-7e3f5723d59c.herokuapp.com"  # Heroku backend
+    "https://neurofeel.space",       # Neurofeel space
+    "https://www.neurofeel.space"    
 ]
 
 app.add_middleware(
