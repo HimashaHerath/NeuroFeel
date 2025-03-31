@@ -19,8 +19,8 @@ app = FastAPI(
 # CORS Configuration
 origins = [
     "https://neurofeel.vercel.app",  # Vercel frontend
-    "http://localhost:3000",
-    "https://neurofeel-api-7e3f5723d59c.herokuapp.com"
+    "http://localhost:3000",         # Local dev
+    "https://neurofeel-api-7e3f5723d59c.herokuapp.com"  # Heroku backend
 ]
 
 app.add_middleware(
