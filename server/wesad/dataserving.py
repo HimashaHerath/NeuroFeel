@@ -88,11 +88,14 @@ app = FastAPI(
     description="API for serving WESAD emotion recognition research data",
     version="1.0.0"
 )
-
+origins = [
+    "https://neurofeel.vercel.app",  # Your Vercel frontend
+    "http://localhost:3000",  # Local development
+]
 # Add CORS middleware to allow requests from your Next.js frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "https://your-production-domain.com"],
+    allow_origins=origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

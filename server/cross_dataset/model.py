@@ -25,11 +25,14 @@ app = FastAPI(
     description="API for making predictions using cross-dataset models with demo samples",
     version="1.0.0"
 )
-
+origins = [
+    "https://neurofeel.vercel.app",  # Your Vercel frontend
+    "http://localhost:3000",  # Local development
+]
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

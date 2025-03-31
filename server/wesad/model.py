@@ -16,11 +16,14 @@ app = FastAPI(
     description="API for demonstrating WESAD emotion recognition models",
     version="1.0.0"
 )
-
+origins = [
+    "https://neurofeel.vercel.app",  # Your Vercel frontend
+    "http://localhost:3000",  # Local development
+]
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
