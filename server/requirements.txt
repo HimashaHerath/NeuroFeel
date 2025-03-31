@@ -7,7 +7,7 @@ fastapi>=0.95.0
 uvicorn>=0.22.0
 pydantic>=2.0.0
 numpy>=1.22.0
-scikit-learn==1.2.2
+scikit-learn==1.6.1
 joblib>=1.2.0
 scipy
 gunicorn
