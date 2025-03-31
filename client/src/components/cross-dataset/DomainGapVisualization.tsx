@@ -26,7 +26,7 @@ import {
 import { Button } from '@/components/ui/button';
 import { Slider } from '@/components/ui/slider';
 import { Switch } from '@/components/ui/switch';
-import { createObjectToCsv, downloadCsv } from '@/lib/utils';
+// import { createObjectToCsv, downloadCsv } from '@/lib/utils';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 
 // Biometric Spectrum theme colors
@@ -495,20 +495,20 @@ const DomainGapVisualization = () => {
   }, [data]);
 
   // Handle data export
-  const handleExportData = () => {
-    if (!data) return;
-    const exportData = {
-      target,
-      gap_before: data.gap_measures.before,
-      gap_after: data.gap_measures.after,
-      reduction_pct: data.gap_measures.reduction_pct,
-      wesad_points: data.data_points.wesad,
-      kemocon_points: data.data_points.kemocon,
-      adapted_points: data.data_points.adapted
-    };
-    const csv = createObjectToCsv(exportData);
-    downloadCsv(csv, `domain_adaptation_${target}_data.csv`);
-  };
+  // const handleExportData = () => {
+  //   if (!data) return;
+  //   const exportData = {
+  //     target,
+  //     gap_before: data.gap_measures.before,
+  //     gap_after: data.gap_measures.after,
+  //     reduction_pct: data.gap_measures.reduction_pct,
+  //     wesad_points: data.data_points.wesad,
+  //     kemocon_points: data.data_points.kemocon,
+  //     adapted_points: data.data_points.adapted
+  //   };
+  //   const csv = createObjectToCsv(exportData);
+  //   downloadCsv(csv, `domain_adaptation_${target}_data.csv`);
+  // };
 
   if (isLoading) {
     return (
@@ -582,9 +582,9 @@ const DomainGapVisualization = () => {
             >
               Gap Reduction: {data.gap_measures.reduction_pct.toFixed(1)}%
             </Badge>
-            <Button variant="outline" size="sm" onClick={handleExportData} className="border-[#E0E0E0] text-[#424242] hover:bg-[#F5F5F5] hover:text-[#2D3142]">
+            {/* <Button variant="outline" size="sm" onClick={handleExportData} className="border-[#E0E0E0] text-[#424242] hover:bg-[#F5F5F5] hover:text-[#2D3142]">
               Export Data
-            </Button>
+            </Button> */}
           </div>
         </div>
       </CardHeader>
