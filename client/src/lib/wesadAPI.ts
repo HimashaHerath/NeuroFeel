@@ -2,8 +2,7 @@
 // WESAD API client for interacting with the WESAD Emotion Recognition Demo API
 
 // Define API base URL
-const API_BASE_URL = 'http://localhost:8000/wesad/model'; // Updated port to match our FastAPI server
-
+const API_BASE_URL = `${process.env.NEXT_PUBLIC_API_URL}/wesad/model` || 'http://localhost:8000/wesad/model';
 // Types for API responses based on actual API schema
 export interface SubjectInfo {
   subject_id: number;

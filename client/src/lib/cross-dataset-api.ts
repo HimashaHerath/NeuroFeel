@@ -1,4 +1,4 @@
-export const CROSS_DATASET_API_URL = process.env.NEXT_PUBLIC_CROSS_DATASET_API_URL || 'http://localhost:8000/cross_dataset/dataserving';
+export const CROSS_DATASET_API_URL = `${process.env.NEXT_PUBLIC_API_URL}/cross_dataset/dataserving` || 'http://localhost:8000/cross_dataset/dataserving';
 
 export async function fetchFromCrossDatasetApi<T>(endpoint: string, options?: RequestInit): Promise<T> {
   const response = await fetch(`${CROSS_DATASET_API_URL}${endpoint}`, {

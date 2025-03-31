@@ -79,7 +79,7 @@ export interface HealthCheckResponse {
 }
 
 // API base URL - Update to match your deployment
-const API_BASE_URL = process.env.NEXT_PUBLIC_CROSS_DATASET_API_URL || 'http://localhost:8000/cross_dataset/model';
+const API_BASE_URL = `${process.env.NEXT_PUBLIC_API_URL}/cross_dataset/model` || 'http://localhost:8000/cross_dataset/model';
 
 // Helper function for API requests
 async function apiRequest<T>(

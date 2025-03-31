@@ -1,5 +1,7 @@
 // lib/api.ts
-export const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000/wesad/dataserving';
+export const API_URL =
+  `${process.env.NEXT_PUBLIC_API_URL}/wesad/dataserving` ||
+  "http://localhost:8000/wesad/dataserving";
 
 export async function fetchFromApi<T>(endpoint: string, options?: RequestInit): Promise<T> {
   const response = await fetch(`${API_URL}${endpoint}`, {
