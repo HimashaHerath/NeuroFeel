@@ -28,13 +28,13 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-# Define paths to data files
-BASE_DIR = "D:\\NeuroFeel\\results\\neural_network_run_20250329_090248"
-TEST_DATA_DIR = os.path.join(BASE_DIR, "test_data")
-MODELS_DIR = os.path.join(BASE_DIR, "models")
-SCALERS_DIR = os.path.join(BASE_DIR, "scalers")
+DATA_DIR = os.path.join(BASE_DIR, "wesad_api_data")
 
+TEST_DATA_DIR = os.path.join(DATA_DIR, "test_data")
+MODELS_DIR = os.path.join(DATA_DIR, "models")
+SCALERS_DIR = os.path.join(DATA_DIR, "scalers")
 # Define emotion classes
 EMOTION_CLASSES = ['Baseline', 'Stress', 'Amusement', 'Meditation']
 
