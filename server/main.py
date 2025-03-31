@@ -2,12 +2,20 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 # Import WESAD apps
-from wesad.dataserving import app as wesad_dataserving_app
-from wesad.model import app as wesad_model_app
+from server.cross_dataset.dataserving import app as cross_dataserving_app
+from server.cross_dataset.model import app as cross_model_app
+
 
 # Import Cross Dataset apps
-from cross_dataset.dataserving import app as cross_dataserving_app
-from cross_dataset.model import app as cross_model_app
+from server.cross_dataset.dataserving import app as cross_dataserving_app
+from server.cross_dataset.model import app as cross_model_app
+
+
+import sys
+import os
+
+# Add server/ to the Python path
+sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
 
 # Create the main FastAPI app
 app = FastAPI(
