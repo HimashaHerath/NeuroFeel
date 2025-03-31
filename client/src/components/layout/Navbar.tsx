@@ -2,9 +2,9 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import {
-  Brain,
   Menu,
   X,
   ChevronDown,
@@ -53,12 +53,16 @@ const Navbar = () => {
           {/* Logo and name */}
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2 group">
-              <div className="bg-gradient-to-r from-[#4464AD] to-[#4F8A8B] p-1.5 rounded-md shadow-sm group-hover:shadow-md transition-all">
-                <Brain className="h-5 w-5 text-white" />
+              {/* Custom Logo Image */}
+              <div className="flex items-center justify-center">
+                <Image 
+                  src="/NeuroFeelLogoHorizontal.png" 
+                  alt="NeuroFeel Logo" 
+                  width={240} 
+                  height={240} 
+                  className="group-hover:opacity-90 transition-opacity"
+                />
               </div>
-              <span className="font-bold text-xl text-[#2D3142] group-hover:text-[#4464AD] transition-colors">
-                NeuroFeel
-              </span>
             </Link>
           </div>
 
@@ -146,7 +150,7 @@ const Navbar = () => {
                   asChild
                 >
                   <a
-                    href="https://github.com/your-username/neurofeel"
+                    href="https://github.com/HimashaHerath/NeuroFeel"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -209,8 +213,14 @@ const Navbar = () => {
                   <SheetHeader className="mb-6">
                     <SheetTitle className="text-white">
                       <div className="flex items-center space-x-2">
-                        <div className="bg-white/20 backdrop-blur-sm p-1.5 rounded-md shadow-md">
-                          <Brain className="h-5 w-5 text-white" />
+                        {/* Custom Logo in mobile menu */}
+                        <div className="flex items-center justify-center">
+                          <Image 
+                            src="/NeuroFeelLogo.png" 
+                            alt="NeuroFeel Logo" 
+                            width={36} 
+                            height={36} 
+                          />
                         </div>
                         <span className="font-bold text-xl">NeuroFeel</span>
                       </div>
@@ -303,7 +313,7 @@ const Navbar = () => {
                         </SheetClose>
                         <SheetClose asChild>
                           <a
-                            href="https://github.com/your-username/neurofeel"
+                            href="https://github.com/HimashaHerath/NeuroFeel"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="w-full"

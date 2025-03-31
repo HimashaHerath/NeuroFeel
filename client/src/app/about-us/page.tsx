@@ -1009,7 +1009,7 @@ export default function AboutPage() {
                     asChild
                   >
                     <a
-                      href="https://github.com/username/neurofeel"
+                      href="https://github.com/HimashaHerath/NeuroFeel"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

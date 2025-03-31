@@ -79,7 +79,7 @@ export default function DocumentationPage() {
             <CardContent className="space-y-4 pt-6">
               <div className="bg-[#F5F5F5] p-4 rounded-md border border-[#E0E0E0]">
                 <code className="text-sm text-[#2D3142]">
-                  git clone https://github.com/your-username/neurofeel.git
+                  git clone https://github.com/HimashaHerath/NeuroFeel.git
                   <br />
                   cd neurofeel
                   <br />
@@ -555,13 +555,13 @@ print(f"Confidence: {result['predictions']['arousal']['confidence']}")`}
             className="justify-start border-[#E0E0E0] text-[#2D3142] hover:bg-[#4464AD]/10 hover:text-[#4464AD] hover:border-[#4464AD]/30"
             asChild
           >
-            <Link href="#">
+            <Link href="https://github.com/HimashaHerath/NeuroFeel">
               <Package className="mr-2 h-4 w-4" />
               GitHub Repository
               <ExternalLink className="ml-auto h-3 w-3 opacity-50" />
             </Link>
           </Button>
-          <Button
+          {/* <Button
             variant="outline"
             className="justify-start border-[#E0E0E0] text-[#2D3142] hover:bg-[#4F8A8B]/10 hover:text-[#4F8A8B] hover:border-[#4F8A8B]/30"
             asChild
@@ -571,7 +571,7 @@ print(f"Confidence: {result['predictions']['arousal']['confidence']}")`}
               Download Documentation PDF
               <ExternalLink className="ml-auto h-3 w-3 opacity-50" />
             </Link>
-          </Button>
+          </Button> */}
           <Button
             variant="outline"
             className="justify-start border-[#E0E0E0] text-[#2D3142] hover:bg-[#4464AD]/10 hover:text-[#4464AD] hover:border-[#4464AD]/30"

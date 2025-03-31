@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { Brain, Mail, Github, Twitter, ArrowRight, Heart, ChevronRight, LineChart } from 'lucide-react';
+import Image from 'next/image';
+import { Mail, Github, Twitter, ArrowRight, Heart, ChevronRight, LineChart } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
@@ -36,11 +37,17 @@ export default function Footer() {
         {/* Main footer content */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12">
           <div className="md:col-span-1">
-            <div className="flex items-center gap-2">
-              <div className="bg-gradient-to-br from-[#4ADEDE] to-[#4464AD] p-1.5 rounded-md shadow-md">
-                <Brain className="h-6 w-6 text-white" />
-              </div>
-              <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-[#B8B8FF]">NeuroFeel</span>
+            {/* Replace DIV + Brain icon with logo image */}
+            <div className="mb-4">
+              <Link href="/">
+                <Image 
+                  src="/NeuroFeelLogoHorizontal.png" 
+                  alt="NeuroFeel Logo" 
+                  width={200} 
+                  height={200} 
+                  className="object-contain" 
+                />
+              </Link>
             </div>
             <p className="text-sm text-[#E0E0E0] mt-3 mb-4 max-w-xs">
               Revolutionizing emotion recognition through advanced domain adaptation and personalization techniques.
@@ -105,7 +112,7 @@ export default function Footer() {
                   </Link>
                 </li> */}
                 <li>
-                  <Link href="https://github.com/yourusername/neurofeel" className="text-sm text-[#E0E0E0] hover:text-white flex items-center group">
+                  <Link href="https://github.com/HimashaHerath/NeuroFeel" className="text-sm text-[#E0E0E0] hover:text-white flex items-center group">
                     <ChevronRight className="h-3 w-3 text-[#7BE495] mr-2 opacity-0 group-hover:opacity-100 transition-opacity" />
                     <span>GitHub Repository</span>
                   </Link>
