@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "build-no-check": "next build --no-lint --no-check"
+    "build-no-check": "next build"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
