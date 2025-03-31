@@ -10,3 +10,4 @@ numpy>=1.22.0
 scikit-learn>=1.0.0
 joblib>=1.2.0
 scipy
+gunicorn

@@ -1,0 +1,19 @@
+{
+    "name": "NeuroFeel API",
+    "description": "FastAPI backend for NeuroFeel",
+    "scripts": {
+      "postdeploy": "python server/main.py"
+    },
+    "buildpacks": [
+      {
+        "url": "heroku/python"
+      }
+    ],
+    "env": {
+      "PYTHONUNBUFFERED": {
+        "description": "Prevents Python from buffering stdout and stderr.",
+        "value": "1"
+      }
+    }
+  }
+  
