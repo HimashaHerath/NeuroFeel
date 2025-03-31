@@ -1,0 +1,84 @@
+{
+  "features": [
+    {
+      "name": "chest_emg_std",
+      "score": 0.0522050070137663
+    },
+    {
+      "name": "chest_emg_range",
+      "score": 0.051897464826596046
+    },
+    {
+      "name": "chest_ecg_mean_diff",
+      "score": 0.05148650250889037
+    },
+    {
+      "name": "chest_ecg_range",
+      "score": 0.051257651334192654
+    },
+    {
+      "name": "chest_resp_max",
+      "score": 0.051155252963842095
+    },
+    {
+      "name": "chest_resp_energy",
+      "score": 0.05063916346149395
+    },
+    {
+      "name": "chest_resp_range",
+      "score": 0.05045713532128074
+    },
+    {
+      "name": "chest_ecg_energy",
+      "score": 0.050130461478988225
+    },
+    {
+      "name": "chest_ecg_min",
+      "score": 0.05005922298082228
+    },
+    {
+      "name": "chest_ecg_iqr",
+      "score": 0.05005564379327037
+    },
+    {
+      "name": "chest_ecg_max",
+      "score": 0.04972911991379531
+    },
+    {
+      "name": "chest_ecg_median",
+      "score": 0.04929806774537175
+    },
+    {
+      "name": "chest_emg_energy",
+      "score": 0.04911128579549259
+    },
+    {
+      "name": "chest_emg_iqr",
+      "score": 0.04812777594157421
+    },
+    {
+      "name": "chest_emg_mean_diff",
+      "score": 0.047960704953831576
+    },
+    {
+      "name": "chest_emg_max",
+      "score": 0.047812968670793814
+    },
+    {
+      "name": "chest_ecg_std",
+      "score": 0.04772532549347119
+    },
+    {
+      "name": "chest_emg_mean",
+      "score": 0.047182285247744815
+    },
+    {
+      "name": "chest_emg_min",
+      "score": 0.047064415116316434
+    },
+    {
+      "name": "chest_resp_min",
+      "score": 0.046826735163519276
+    }
+  ]
+}

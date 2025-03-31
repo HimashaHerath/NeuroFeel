@@ -1,0 +1,19 @@
+{
+  "datasets": {
+    "WESAD": {
+      "subjects": 15,
+      "total_segments": 7345,
+      "emotions": {
+        "Baseline": 2906,
+        "Stress": 1630,
+        "Amusement": 899,
+        "Meditation": 1910
+      }
+    },
+    "K-EmoCon": {
+      "participants": 11,
+      "total_segments": 1403
+    }
+  },
+  "extraction_date": "2025-03-27T17:38:50.516031"
+}

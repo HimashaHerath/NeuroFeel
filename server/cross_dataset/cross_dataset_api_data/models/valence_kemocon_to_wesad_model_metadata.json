@@ -1,0 +1,31 @@
+{
+  "target": "valence",
+  "adaptation_method": "ensemble",
+  "n_features": 9,
+  "features": [
+    "HR_energy",
+    "HR_min",
+    "HR_max",
+    "HR_std",
+    "HR_mean",
+    "HR_range",
+    "HR_kurtosis",
+    "HR_skewness",
+    "HR_slope"
+  ],
+  "target_features": [
+    "ECG_energy",
+    "ECG_min",
+    "ECG_max",
+    "ECG_std",
+    "ECG_mean",
+    "ECG_range",
+    "ECG_kurtosis",
+    "ECG_skewness",
+    "ECG_slope"
+  ],
+  "class_balance": [
+    959,
+    767
+  ]
+}

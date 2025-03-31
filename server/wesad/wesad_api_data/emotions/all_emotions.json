@@ -1,0 +1,98 @@
+{
+  "Baseline": {
+    "models": {
+      "base": {
+        "correct": 565,
+        "total": 583,
+        "accuracy": 0.9691252144082333
+      },
+      "personal": {
+        "correct": 507,
+        "total": 583,
+        "accuracy": 0.869639794168096
+      },
+      "ensemble": {
+        "correct": 560,
+        "total": 583,
+        "accuracy": 0.9605488850771869
+      },
+      "adaptive": {
+        "correct": 558,
+        "total": 583,
+        "accuracy": 0.9571183533447685
+      }
+    }
+  },
+  "Stress": {
+    "models": {
+      "base": {
+        "correct": 300,
+        "total": 326,
+        "accuracy": 0.9202453987730062
+      },
+      "personal": {
+        "correct": 284,
+        "total": 326,
+        "accuracy": 0.8711656441717791
+      },
+      "ensemble": {
+        "correct": 302,
+        "total": 326,
+        "accuracy": 0.9263803680981595
+      },
+      "adaptive": {
+        "correct": 305,
+        "total": 326,
+        "accuracy": 0.9355828220858896
+      }
+    }
+  },
+  "Amusement": {
+    "models": {
+      "base": {
+        "correct": 165,
+        "total": 180,
+        "accuracy": 0.9166666666666666
+      },
+      "personal": {
+        "correct": 162,
+        "total": 180,
+        "accuracy": 0.9
+      },
+      "ensemble": {
+        "correct": 168,
+        "total": 180,
+        "accuracy": 0.9333333333333333
+      },
+      "adaptive": {
+        "correct": 171,
+        "total": 180,
+        "accuracy": 0.95
+      }
+    }
+  },
+  "Meditation": {
+    "models": {
+      "base": {
+        "correct": 376,
+        "total": 386,
+        "accuracy": 0.9740932642487047
+      },
+      "personal": {
+        "correct": 361,
+        "total": 386,
+        "accuracy": 0.9352331606217616
+      },
+      "ensemble": {
+        "correct": 376,
+        "total": 386,
+        "accuracy": 0.9740932642487047
+      },
+      "adaptive": {
+        "correct": 372,
+        "total": 386,
+        "accuracy": 0.9637305699481865
+      }
+    }
+  }
+}

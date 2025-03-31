@@ -1,0 +1,256 @@
+{
+  "subject_id": 17,
+  "models": {
+    "base": {
+      "subject_id": 17,
+      "model_type": "base",
+      "accuracy": 0.9393939393939394,
+      "f1_score": 0.9406397478988218,
+      "class_metrics": {
+        "Baseline": {
+          "correct": 35,
+          "total": 39,
+          "accuracy_pct": 89.74358974358975
+        },
+        "Stress": {
+          "correct": 24,
+          "total": 24,
+          "accuracy_pct": 100.0
+        },
+        "Amusement": {
+          "correct": 11,
+          "total": 12,
+          "accuracy_pct": 91.66666666666666
+        },
+        "Meditation": {
+          "correct": 23,
+          "total": 24,
+          "accuracy_pct": 95.83333333333334
+        }
+      },
+      "confusion_matrix": [
+        [
+          35,
+          2,
+          2,
+          0
+        ],
+        [
+          0,
+          24,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          11,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          23
+        ]
+      ],
+      "num_samples": 99
+    },
+    "personal": {
+      "subject_id": 17,
+      "model_type": "personal",
+      "accuracy": 0.9393939393939394,
+      "f1_score": 0.9404163088373615,
+      "class_metrics": {
+        "Baseline": {
+          "correct": 36,
+          "total": 39,
+          "accuracy_pct": 92.3076923076923
+        },
+        "Stress": {
+          "correct": 24,
+          "total": 24,
+          "accuracy_pct": 100.0
+        },
+        "Amusement": {
+          "correct": 11,
+          "total": 12,
+          "accuracy_pct": 91.66666666666666
+        },
+        "Meditation": {
+          "correct": 22,
+          "total": 24,
+          "accuracy_pct": 91.66666666666666
+        }
+      },
+      "confusion_matrix": [
+        [
+          36,
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          24,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          11,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          22
+        ]
+      ],
+      "num_samples": 99
+    },
+    "ensemble": {
+      "subject_id": 17,
+      "model_type": "ensemble",
+      "ensemble_weight": 0.6,
+      "accuracy": 0.9595959595959596,
+      "f1_score": 0.9608797590720483,
+      "class_metrics": {
+        "Baseline": {
+          "correct": 37,
+          "total": 39,
+          "accuracy_pct": 94.87179487179486
+        },
+        "Stress": {
+          "correct": 24,
+          "total": 24,
+          "accuracy_pct": 100.0
+        },
+        "Amusement": {
+          "correct": 11,
+          "total": 12,
+          "accuracy_pct": 91.66666666666666
+        },
+        "Meditation": {
+          "correct": 23,
+          "total": 24,
+          "accuracy_pct": 95.83333333333334
+        }
+      },
+      "confusion_matrix": [
+        [
+          37,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          24,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          11,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          23
+        ]
+      ],
+      "num_samples": 99
+    },
+    "adaptive": {
+      "subject_id": 17,
+      "model_type": "adaptive",
+      "accuracy": 0.9595959595959596,
+      "f1_score": 0.9606734006734007,
+      "class_metrics": {
+        "Baseline": {
+          "correct": 36,
+          "total": 39,
+          "accuracy_pct": 92.3076923076923
+        },
+        "Stress": {
+          "correct": 24,
+          "total": 24,
+          "accuracy_pct": 100.0
+        },
+        "Amusement": {
+          "correct": 12,
+          "total": 12,
+          "accuracy_pct": 100.0
+        },
+        "Meditation": {
+          "correct": 23,
+          "total": 24,
+          "accuracy_pct": 95.83333333333334
+        }
+      },
+      "confusion_matrix": [
+        [
+          36,
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          24,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          12,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          23
+        ]
+      ],
+      "num_samples": 99,
+      "model_selection": {
+        "Baseline": {
+          "base_model_used": 34,
+          "personal_model_used": 5,
+          "base_model_pct": 87.17948717948718,
+          "personal_model_pct": 12.82051282051282
+        },
+        "Stress": {
+          "base_model_used": 24,
+          "personal_model_used": 0,
+          "base_model_pct": 100.0,
+          "personal_model_pct": 0.0
+        },
+        "Amusement": {
+          "base_model_used": 9,
+          "personal_model_used": 3,
+          "base_model_pct": 75.0,
+          "personal_model_pct": 25.0
+        },
+        "Meditation": {
+          "base_model_used": 21,
+          "personal_model_used": 3,
+          "base_model_pct": 87.5,
+          "personal_model_pct": 12.5
+        }
+      },
+      "base_model_count": 88,
+      "personal_model_count": 11,
+      "base_model_pct": 88.88888888888889,
+      "personal_model_pct": 11.11111111111111
+    }
+  }
+}

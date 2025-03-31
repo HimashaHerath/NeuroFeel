@@ -1,0 +1,104 @@
+{
+  "features": [
+    {
+      "name": "chest_emg_iqr",
+      "score": 0.04992398527868757,
+      "rank": 1
+    },
+    {
+      "name": "chest_emg_max",
+      "score": 0.0513137910019778,
+      "rank": 2
+    },
+    {
+      "name": "chest_ecg_min",
+      "score": 0.04839315967431514,
+      "rank": 3
+    },
+    {
+      "name": "chest_emg_std",
+      "score": 0.045811300945182536,
+      "rank": 4
+    },
+    {
+      "name": "chest_emg_energy",
+      "score": 0.04901388471431531,
+      "rank": 5
+    },
+    {
+      "name": "chest_resp_max",
+      "score": 0.04102021351911826,
+      "rank": 6
+    },
+    {
+      "name": "chest_ecg_range",
+      "score": 0.05612047653605166,
+      "rank": 7
+    },
+    {
+      "name": "chest_ecg_mean_diff",
+      "score": 0.05155074316449404,
+      "rank": 8
+    },
+    {
+      "name": "chest_resp_min",
+      "score": 0.04487632030731342,
+      "rank": 9
+    },
+    {
+      "name": "chest_emg_min",
+      "score": 0.048861428714159216,
+      "rank": 10
+    },
+    {
+      "name": "chest_ecg_energy",
+      "score": 0.05674832673903473,
+      "rank": 11
+    },
+    {
+      "name": "chest_ecg_std",
+      "score": 0.04408845061099802,
+      "rank": 12
+    },
+    {
+      "name": "chest_emg_range",
+      "score": 0.04626712480488479,
+      "rank": 13
+    },
+    {
+      "name": "chest_resp_range",
+      "score": 0.05042343336403016,
+      "rank": 14
+    },
+    {
+      "name": "chest_ecg_iqr",
+      "score": 0.05748488731897912,
+      "rank": 15
+    },
+    {
+      "name": "chest_emg_mean_diff",
+      "score": 0.04086747932581091,
+      "rank": 16
+    },
+    {
+      "name": "chest_emg_mean",
+      "score": 0.04489962626920872,
+      "rank": 17
+    },
+    {
+      "name": "chest_resp_energy",
+      "score": 0.048914935580860325,
+      "rank": 18
+    },
+    {
+      "name": "chest_ecg_max",
+      "score": 0.05297075626154564,
+      "rank": 19
+    },
+    {
+      "name": "chest_ecg_median",
+      "score": 0.05081730074562529,
+      "rank": 20
+    }
+  ]
+}

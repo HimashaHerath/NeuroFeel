@@ -1,0 +1,48 @@
+{
+  "models": [
+    {
+      "direction": "wesad_to_kemocon",
+      "target": "arousal",
+      "accuracy": 0.6314021830394626,
+      "f1_score": 0.6216782400437711,
+      "balanced_accuracy": 0.5001203290452437,
+      "roc_auc": 0.5207950468189376,
+      "pr_auc": 0.2651325856889649,
+      "threshold": 0.65,
+      "adaptation_method": "ensemble"
+    },
+    {
+      "direction": "kemocon_to_wesad",
+      "target": "arousal",
+      "accuracy": 0.6556841388699796,
+      "f1_score": 0.5193281494610348,
+      "balanced_accuracy": 0.5,
+      "roc_auc": 0.3858699221916138,
+      "pr_auc": 0.3345274573492346,
+      "threshold": 0.2,
+      "adaptation_method": "ensemble"
+    },
+    {
+      "direction": "wesad_to_kemocon",
+      "target": "valence",
+      "accuracy": 0.8026868178001679,
+      "f1_score": 0.7186335330326659,
+      "balanced_accuracy": 0.5000696666786524,
+      "roc_auc": 0.4849924490309589,
+      "pr_auc": 0.1920975107185367,
+      "threshold": 0.35,
+      "adaptation_method": "ensemble"
+    },
+    {
+      "direction": "kemocon_to_wesad",
+      "target": "valence",
+      "accuracy": 0.6162014976174268,
+      "f1_score": 0.5255668865769829,
+      "balanced_accuracy": 0.5172633802410117,
+      "roc_auc": 0.5036584033558046,
+      "pr_auc": 0.4062311809919863,
+      "threshold": 0.2,
+      "adaptation_method": "ensemble"
+    }
+  ]
+}

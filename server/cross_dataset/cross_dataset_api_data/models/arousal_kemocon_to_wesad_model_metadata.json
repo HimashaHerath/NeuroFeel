@@ -1,0 +1,31 @@
+{
+  "target": "arousal",
+  "adaptation_method": "ensemble",
+  "n_features": 9,
+  "features": [
+    "HR_max",
+    "HR_min",
+    "HR_energy",
+    "HR_std",
+    "HR_kurtosis",
+    "HR_range",
+    "HR_mean",
+    "HR_slope",
+    "HR_skewness"
+  ],
+  "target_features": [
+    "ECG_max",
+    "ECG_min",
+    "ECG_energy",
+    "ECG_std",
+    "ECG_kurtosis",
+    "ECG_range",
+    "ECG_mean",
+    "ECG_slope",
+    "ECG_skewness"
+  ],
+  "class_balance": [
+    879,
+    703
+  ]
+}

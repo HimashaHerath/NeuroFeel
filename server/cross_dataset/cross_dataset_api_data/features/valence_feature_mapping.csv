@@ -1,0 +1,10 @@
+wesad_feature,kemocon_feature,importance_score
+ECG_mean,HR_mean,0.149422262293496
+ECG_skewness,HR_skewness,0.1291883362848697
+ECG_slope,HR_slope,0.1291076204895505
+ECG_max,HR_max,0.1112358956812839
+ECG_energy,HR_energy,0.1081443620560541
+ECG_min,HR_min,0.1024374009746612
+ECG_kurtosis,HR_kurtosis,0.0943344668445122
+ECG_range,HR_range,0.08858357860985
+ECG_std,HR_std,0.0875460767657221

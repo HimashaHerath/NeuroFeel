@@ -1,0 +1,24 @@
+{
+  "models": {
+    "base": {
+      "correct": 165,
+      "total": 180,
+      "accuracy": 0.9166666666666666
+    },
+    "personal": {
+      "correct": 162,
+      "total": 180,
+      "accuracy": 0.9
+    },
+    "ensemble": {
+      "correct": 168,
+      "total": 180,
+      "accuracy": 0.9333333333333333
+    },
+    "adaptive": {
+      "correct": 171,
+      "total": 180,
+      "accuracy": 0.95
+    }
+  }
+}

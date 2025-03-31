@@ -1,0 +1,39 @@
+{
+  "methods": [
+    {
+      "name": "Our Adaptive Model",
+      "accuracy": 0.88,
+      "f1_score": 0.87,
+      "year": 2023,
+      "is_ours": true
+    },
+    {
+      "name": "Our Ensemble Model",
+      "accuracy": 0.87,
+      "f1_score": 0.86,
+      "year": 2023,
+      "is_ours": true
+    },
+    {
+      "name": "Schmidt et al.",
+      "accuracy": 0.83,
+      "f1_score": 0.82,
+      "year": 2018,
+      "is_ours": false
+    },
+    {
+      "name": "Santamaria-Granados et al.",
+      "accuracy": 0.8,
+      "f1_score": 0.79,
+      "year": 2019,
+      "is_ours": false
+    },
+    {
+      "name": "Siirtola et al.",
+      "accuracy": 0.77,
+      "f1_score": 0.76,
+      "year": 2020,
+      "is_ours": false
+    }
+  ]
+}

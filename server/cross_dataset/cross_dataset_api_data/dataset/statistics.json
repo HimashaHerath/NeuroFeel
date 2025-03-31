@@ -1,0 +1,36 @@
+{
+  "datasets": {
+    "WESAD": {
+      "subjects": 15,
+      "total_segments": 7345,
+      "segment_size_seconds": 12,
+      "sampling_rate_hz": 700,
+      "description": "Laboratory dataset with controlled conditions"
+    },
+    "K-EmoCon": {
+      "participants": 11,
+      "total_segments": 1191,
+      "segment_size_seconds": 12,
+      "sampling_rate_hz": 4,
+      "description": "In-the-wild dataset from social interactions"
+    }
+  },
+  "features": {
+    "common_count": 9,
+    "physio_signals": [
+      "ECG/HR",
+      "EDA",
+      "TEMP"
+    ]
+  },
+  "domain_gap": {
+    "arousal": {
+      "gap_measure": 2772967.6459,
+      "reduction_percent": 40.0
+    },
+    "valence": {
+      "gap_measure": 2962491.7841,
+      "reduction_percent": 40.0
+    }
+  }
+}

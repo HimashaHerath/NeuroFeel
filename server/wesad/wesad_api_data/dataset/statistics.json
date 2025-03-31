@@ -1,0 +1,52 @@
+{
+  "subjects": {
+    "total": 15,
+    "male": 12,
+    "female": 3,
+    "age_range": "22-33",
+    "mean_age": 27.5
+  },
+  "recordings": {
+    "total_duration_minutes": 4800,
+    "mean_duration_minutes": 320,
+    "sampling_rate_hz": 700
+  },
+  "class_distribution": {
+    "Baseline": 12047005,
+    "Stress": 6615000,
+    "Amusement": 3881500,
+    "Meditation": 8235500
+  },
+  "sensors": [
+    {
+      "name": "ECG",
+      "location": "chest",
+      "sampling_rate_hz": 700
+    },
+    {
+      "name": "EMG",
+      "location": "chest",
+      "sampling_rate_hz": 700
+    },
+    {
+      "name": "Respiration",
+      "location": "chest",
+      "sampling_rate_hz": 700
+    },
+    {
+      "name": "Accelerometer",
+      "location": "chest and wrist",
+      "sampling_rate_hz": 32
+    },
+    {
+      "name": "Temperature",
+      "location": "chest",
+      "sampling_rate_hz": 4
+    },
+    {
+      "name": "EDA",
+      "location": "wrist",
+      "sampling_rate_hz": 4
+    }
+  ]
+}

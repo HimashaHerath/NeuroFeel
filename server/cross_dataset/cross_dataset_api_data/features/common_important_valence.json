@@ -1,0 +1,14 @@
+[
+  {
+    "feature": "ECG/HR mean",
+    "importance": 0.149422262293496
+  },
+  {
+    "feature": "ECG/HR skewness",
+    "importance": 0.1291883362848697
+  },
+  {
+    "feature": "ECG/HR slope",
+    "importance": 0.1291076204895505
+  }
+]

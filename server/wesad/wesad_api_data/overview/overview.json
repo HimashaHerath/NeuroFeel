@@ -1,0 +1,199 @@
+{
+  "models": [
+    {
+      "name": "base",
+      "accuracy": 0.9533472433762141,
+      "f1_score": 0.9528963437162367,
+      "std_deviation": 0.03407225457933892
+    },
+    {
+      "name": "personal",
+      "accuracy": 0.8908191193767335,
+      "f1_score": 0.8923160439307355,
+      "std_deviation": 0.045449718987189434
+    },
+    {
+      "name": "ensemble",
+      "accuracy": 0.9532912487739632,
+      "f1_score": 0.9529628738593273,
+      "std_deviation": 0.040311775589776194
+    },
+    {
+      "name": "adaptive",
+      "accuracy": 0.9532561787738711,
+      "f1_score": 0.953248369925019,
+      "std_deviation": 0.03427858855024118
+    }
+  ],
+  "emotions": {
+    "Baseline": {
+      "accuracy_by_model": {
+        "base": 96.90958164642376,
+        "personal": 86.95434098065675,
+        "ensemble": 96.05488079172288,
+        "adaptive": 95.70400359874044
+      }
+    },
+    "Stress": {
+      "accuracy_by_model": {
+        "base": 92.04906204906203,
+        "personal": 87.08946608946607,
+        "ensemble": 92.63924963924963,
+        "adaptive": 93.57720057720057
+      }
+    },
+    "Amusement": {
+      "accuracy_by_model": {
+        "base": 91.66666666666667,
+        "personal": 90.0,
+        "ensemble": 93.33333333333333,
+        "adaptive": 95.0
+      }
+    },
+    "Meditation": {
+      "accuracy_by_model": {
+        "base": 97.41452991452992,
+        "personal": 93.54700854700855,
+        "ensemble": 97.41452991452992,
+        "adaptive": 96.38888888888889
+      }
+    }
+  },
+  "subjects": [
+    {
+      "subject_id": 2,
+      "accuracies": {
+        "base": 0.9894736842105263,
+        "personal": 0.9473684210526315,
+        "ensemble": 0.968421052631579,
+        "adaptive": 0.968421052631579
+      }
+    },
+    {
+      "subject_id": 3,
+      "accuracies": {
+        "base": 0.96875,
+        "personal": 0.8333333333333334,
+        "ensemble": 0.9791666666666666,
+        "adaptive": 0.96875
+      }
+    },
+    {
+      "subject_id": 4,
+      "accuracies": {
+        "base": 0.9690721649484536,
+        "personal": 0.9175257731958762,
+        "ensemble": 0.9896907216494846,
+        "adaptive": 0.9690721649484536
+      }
+    },
+    {
+      "subject_id": 5,
+      "accuracies": {
+        "base": 0.9393939393939394,
+        "personal": 0.9292929292929293,
+        "ensemble": 0.9393939393939394,
+        "adaptive": 0.9494949494949495
+      }
+    },
+    {
+      "subject_id": 6,
+      "accuracies": {
+        "base": 0.9795918367346939,
+        "personal": 0.8469387755102041,
+        "ensemble": 0.9591836734693877,
+        "adaptive": 0.9591836734693877
+      }
+    },
+    {
+      "subject_id": 7,
+      "accuracies": {
+        "base": 0.9489795918367347,
+        "personal": 0.9285714285714286,
+        "ensemble": 0.9489795918367347,
+        "adaptive": 0.9387755102040817
+      }
+    },
+    {
+      "subject_id": 8,
+      "accuracies": {
+        "base": 0.9191919191919192,
+        "personal": 0.8585858585858586,
+        "ensemble": 0.9191919191919192,
+        "adaptive": 0.9191919191919192
+      }
+    },
+    {
+      "subject_id": 9,
+      "accuracies": {
+        "base": 0.9897959183673469,
+        "personal": 0.8673469387755102,
+        "ensemble": 0.9387755102040817,
+        "adaptive": 0.9693877551020408
+      }
+    },
+    {
+      "subject_id": 10,
+      "accuracies": {
+        "base": 1.0,
+        "personal": 0.9504950495049505,
+        "ensemble": 1.0,
+        "adaptive": 1.0
+      }
+    },
+    {
+      "subject_id": 11,
+      "accuracies": {
+        "base": 0.9393939393939394,
+        "personal": 0.9191919191919192,
+        "ensemble": 1.0,
+        "adaptive": 0.9797979797979798
+      }
+    },
+    {
+      "subject_id": 13,
+      "accuracies": {
+        "base": 0.8686868686868687,
+        "personal": 0.797979797979798,
+        "ensemble": 0.8383838383838383,
+        "adaptive": 0.8484848484848485
+      }
+    },
+    {
+      "subject_id": 14,
+      "accuracies": {
+        "base": 0.9696969696969697,
+        "personal": 0.8484848484848485,
+        "ensemble": 0.9696969696969697,
+        "adaptive": 0.9595959595959596
+      }
+    },
+    {
+      "subject_id": 15,
+      "accuracies": {
+        "base": 0.9090909090909091,
+        "personal": 0.8787878787878788,
+        "ensemble": 0.9090909090909091,
+        "adaptive": 0.9292929292929293
+      }
+    },
+    {
+      "subject_id": 16,
+      "accuracies": {
+        "base": 0.9696969696969697,
+        "personal": 0.898989898989899,
+        "ensemble": 0.9797979797979798,
+        "adaptive": 0.9797979797979798
+      }
+    },
+    {
+      "subject_id": 17,
+      "accuracies": {
+        "base": 0.9393939393939394,
+        "personal": 0.9393939393939394,
+        "ensemble": 0.9595959595959596,
+        "adaptive": 0.9595959595959596
+      }
+    }
+  ]
+}
