@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import Providers from "./providers";
+import { Analytics } from "@vercel/analytics/react";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,7 +18,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "NeuroFeel - Cross-Dataset Emotion Recognition",
-  description: "Interactive demos for cross-dataset emotion recognition research using physiological signals",
+  description:
+    "Interactive demos for cross-dataset emotion recognition research using physiological signals",
 };
 
 export default function RootLayout({
@@ -32,11 +34,10 @@ export default function RootLayout({
       >
         <Navbar />
         <Providers>
-        <main className="flex-grow">
-          {children}
-        </main>
+          <main className="flex-grow">{children}</main>
         </Providers>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
