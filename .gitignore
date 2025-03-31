@@ -1,0 +1,14 @@
+# Ignore the results directory
+/results/
+
+# Ignore the wesad_api directory
+/wesad_api/
+
+# Ignore Python bytecode caches
+__pycache__/
+*.py[cod]
+
+wesad_framework/results
+cross_dataset/results
+server/cross_dataset/cross_dataset_api_data
+server/wesad/wesad_api_data
