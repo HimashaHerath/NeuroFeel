@@ -187,11 +187,15 @@ export default function AboutPage() {
                             </div>
 
                             <p className="text-sm text-[#424242]">
-                              This project investigates cross-dataset emotion
-                              recognition challenges using physiological signals
-                              and develops frameworks for personalization and
-                              domain adaptation to improve real-world
-                              applicability of emotion detection systems.
+                              NeuroFeel investigates the challenges of
+                              cross-dataset emotion recognition using
+                              physiological signals, presenting two innovative
+                              frameworks: one for personalized emotion
+                              recognition using minimal calibration data, and
+                              another employing advanced domain adaptation
+                              techniques to enhance model generalization from
+                              controlled laboratory environments to real-world
+                              scenarios.
                             </p>
                           </div>
                         </div>
@@ -211,22 +215,25 @@ export default function AboutPage() {
 
                   <CardContent className="p-6 space-y-6">
                     <p className="text-[#424242]">
-                      NeuroFeel is an individual research project focused on
-                      developing advanced emotion recognition systems that work
-                      consistently across different environments. The innovative
-                      framework addresses the fundamental challenge of
-                      transferring emotion recognition models between laboratory
-                      and real-world settings, enabling more reliable affective
-                      computing applications.
+                      NeuroFeel is a research-oriented project dedicated to
+                      enhancing emotion recognition using physiological signals.
+                      It focuses specifically on developing frameworks that
+                      handle both personalized emotion detection and
+                      cross-domain generalization, thereby ensuring consistent
+                      performance across different individuals and settings.
                     </p>
 
                     <p className="text-[#424242]">
-                      The project consists of two complementary frameworks: a
-                      WESAD personalization framework for enhanced
-                      subject-specific emotion recognition and a cross-dataset
-                      framework that bridges the gap between WESAD (laboratory)
-                      and K-EmoCon (in-the-wild) datasets using advanced domain
-                      adaptation techniques.
+                      The project comprises two main frameworks: a personalized
+                      emotion recognition framework built on the WESAD dataset,
+                      which utilizes transfer learning and adaptive ensemble
+                      modeling for effective subject-specific emotion
+                      classification; and a cross-dataset emotion recognition
+                      framework designed to bridge the gap between controlled
+                      laboratory (WESAD) and naturalistic real-world (K-EmoCon)
+                      environments through advanced domain adaptation methods
+                      such as CORAL, Subspace Alignment, and ensemble adaptation
+                      techniques.
                     </p>
                   </CardContent>
 
@@ -380,19 +387,19 @@ export default function AboutPage() {
 
                         <div className="flex justify-center gap-4 mb-4">
                           <a
-                            href="#"
+                            href="https://www.linkedin.com/in/himasha-herath/"
                             className="text-white hover:text-[#B8B8FF] transition-colors"
                           >
                             <Linkedin className="h-5 w-5" />
                           </a>
                           <a
-                            href="#"
+                            href="https://github.com/HimashaHerath"
                             className="text-white hover:text-[#B8B8FF] transition-colors"
                           >
                             <Github className="h-5 w-5" />
                           </a>
                           <a
-                            href="#"
+                            href="mailto:himasha626@gmail.com"
                             className="text-white hover:text-[#B8B8FF] transition-colors"
                           >
                             <Mail className="h-5 w-5" />
@@ -426,16 +433,6 @@ export default function AboutPage() {
                             computing, and developing solutions that bridge the
                             gap between research and real-world applications.
                           </p>
-
-                          <p>
-                            My interest in emotion recognition technology began
-                            during my coursework in machine learning and
-                            human-computer interaction. This led me to explore
-                            how physiological signals can be used to detect
-                            emotional states, and the challenges in making these
-                            systems work outside laboratory environments.
-                          </p>
-
                           <p>
                             Through my final year project, NeuroFeel, I've
                             developed expertise in signal processing, machine
@@ -586,9 +583,10 @@ export default function AboutPage() {
                       </div>
 
                       <p className="text-[#424242]">
-                        Provided guidance on research methodology, technical
-                        implementation, and academic standards throughout the
-                        project development process.
+                        Offered comprehensive guidance on research methodology,
+                        technical implementation, and academic rigor throughout
+                        the project development process, ultimately inspiring
+                        the final year project concept.
                       </p>
                     </CardContent>
                   </Card>
@@ -920,7 +918,7 @@ export default function AboutPage() {
                         </div>
                         <span>
                           University of Westminster and IIT for providing the
-                          academic framework and resources
+                          academic knowledge and resources
                         </span>
                       </li>
 
@@ -955,7 +953,7 @@ export default function AboutPage() {
                         </span>
                       </li>
 
-                      <li className="flex items-start">
+                      {/* <li className="flex items-start">
                         <div className="h-5 w-5 rounded-full bg-[#7BE495]/10 flex items-center justify-center mr-3 mt-0.5">
                           <ChevronRight className="h-3 w-3 text-[#7BE495]" />
                         </div>
@@ -963,7 +961,7 @@ export default function AboutPage() {
                           Open source community members who shared tools and
                           knowledge about emotion recognition
                         </span>
-                      </li>
+                      </li> */}
                     </ul>
                   </CardContent>
                 </Card>
@@ -1106,7 +1104,7 @@ export default function AboutPage() {
                     asChild
                   >
                     <a
-                      href="https://github.com/username"
+                      href="https://github.com/HimashaHerath"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -1120,7 +1118,7 @@ export default function AboutPage() {
                     asChild
                   >
                     <a
-                      href="https://linkedin.com/in/username"
+                      href="https://linkedin.com/in/himasha-herath"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
