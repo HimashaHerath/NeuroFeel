@@ -5,7 +5,7 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import Providers from "./providers";
 import { Analytics } from "@vercel/analytics/react";
-
+import { SpeedInsights } from "@vercel/speed-insights/next";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -34,7 +34,10 @@ export default function RootLayout({
       >
         <Navbar />
         <Providers>
-          <main className="flex-grow">{children}</main>
+          <main className="flex-grow">
+            {children}
+            <SpeedInsights />
+          </main>
         </Providers>
         <Footer />
         <Analytics />
